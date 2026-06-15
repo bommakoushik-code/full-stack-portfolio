@@ -54,7 +54,7 @@ const handleSubmit = async (e) => {
       <div className="flex flex-col lg:flex-row">
 
         {/* Sidebar */}
-        <aside className="w-full lg:w-72 lg:min-h-screen border-b lg:border-b-0 lg:border-r border-purple-900/30 p-6 lg:p-8">
+        <aside className="w-full lg:w-64 lg:min-h-screen border-b lg:border-b-0 lg:border-r border-purple-900/30 p-6 lg:p-8">
 
           <h1 className="text-2xl font-bold mb-8">
             Koushik<span className="text-purple-400">.dev</span>
@@ -134,7 +134,7 @@ const handleSubmit = async (e) => {
         </aside>
 
         {/* Main Content */}
-        <main className="flex-1 p-8 lg:p-10 space-y-10">
+        <main className="flex-1 p-6 lg:p-12 space-y-12 overflow-hidden">
 
           {/* Hero */}
           <div id="overview" className="rounded-3xl bg-gradient-to-r from-purple-950 to-[#1A1235] p-8 lg:p-10 border border-purple-900/30 shadow-2xl">
@@ -154,7 +154,7 @@ const handleSubmit = async (e) => {
   I build scalable web applications with clean architecture, responsive design,
   and a strong focus on performance and user experience.
 </p>
-            <div className="mt-8 flex flex-wrap gap-4">
+            <div className="mt-8 flex flex-wrap items-center gap-4">
               <a
   href="#projects"
   className="bg-purple-600 px-6 py-3 rounded-xl hover:bg-purple-700 transition duration-300 shadow-lg"
