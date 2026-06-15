@@ -74,8 +74,8 @@ const handleSubmit = async (e) => {
             </h2>
 
             <p className="text-gray-400 text-sm mt-1">
-              Aspiring Software Engineer
-            </p>
+  Full Stack Developer | React • Node.js • MongoDB
+</p>
 
           </div>
 
@@ -149,11 +149,11 @@ const handleSubmit = async (e) => {
                Into Applications.
             </h1>
 
-            <p className="text-gray-400 mt-6 max-w-xl">
-              Full Stack Developer passionate about creating modern,
-              scalable and user-friendly web applications.
-            </p>
-
+            <p className="text-gray-400 mt-6 max-w-2xl text-lg leading-relaxed">
+  Full Stack Developer specializing in React, Node.js, Express, and MongoDB.
+  I build scalable web applications with clean architecture, responsive design,
+  and a strong focus on performance and user experience.
+</p>
             <div className="mt-8 flex flex-wrap gap-4">
               <a
   href="#projects"
