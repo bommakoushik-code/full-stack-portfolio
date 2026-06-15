@@ -221,13 +221,21 @@ const handleSubmit = async (e) => {
 
                 <div className="flex gap-2 mt-4">
                   <div className="flex gap-3 mt-5">
-  <button className="bg-purple-600 px-4 py-2 rounded-lg">
-    GitHub
-  </button>
+   <a
+  href="https://github.com/bommakoushik-code/full-stack-portfolio"
+  target="_blank"
+  className="bg-purple-600 px-4 py-2 rounded-lg"
+>
+  GitHub
+</a>
 
-  <button className="border border-purple-500 px-4 py-2 rounded-lg">
-    Demo
-  </button>
+  <a
+  href="https://full-stack-portfolio-mu-ten.vercel.app"
+  target="_blank"
+  className="border border-purple-500 px-4 py-2 rounded-lg"
+>
+  Live Demo
+</a>
 </div>
                   <span className="bg-[#201830] px-3 py-1 rounded-lg text-sm">
                     React
