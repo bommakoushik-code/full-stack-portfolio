@@ -201,95 +201,103 @@ const handleSubmit = async (e) => {
           </div>
 
           {/* Projects */}
-          <div id="projects" className="mt-12">
+<div id="projects" className="mt-12">
+  <h2 className="text-3xl font-bold mb-6 text-purple-300">
+    Featured Projects
+  </h2>
 
-            <h2 className="text-3xl font-bold mb-6 text-purple-300">
-              Featured Projects
-            </h2>
+  <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+    <div className="bg-[#151022] p-6 rounded-2xl border border-purple-900/30 hover:border-purple-500 hover:-translate-y-2 transition duration-300 flex flex-col h-full">
+      <h3 className="text-xl font-semibold">
+        Personal Portfolio Website
+      </h3>
 
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+      <p className="text-gray-400 mt-3 leading-relaxed">
+        Full-stack portfolio built using React, Tailwind CSS, Express.js and MongoDB Atlas.
+        Includes a responsive UI, live contact form, backend API, and deployment on Vercel and Render.
+      </p>
 
-              <div className="bg-[#151022] p-6 rounded-2xl border border-purple-900/30 hover:border-purple-500 hover:-translate-y-2 transition duration-300">
+      <div className="flex flex-wrap gap-2 mt-4">
+        <span className="bg-[#201830] px-3 py-1 rounded-lg text-sm text-purple-200">
+          React
+        </span>
 
-                <h3 className="text-xl font-semibold">
-                  Personal Portfolio Website
-                </h3>
+        <span className="bg-[#201830] px-3 py-1 rounded-lg text-sm text-purple-200">
+          Tailwind
+        </span>
 
-                <p className="text-gray-400 mt-3">
-  Full-stack portfolio built using React, Tailwind CSS, Express.js and MongoDB Atlas.
-</p>
+        <span className="bg-[#201830] px-3 py-1 rounded-lg text-sm text-purple-200">
+          Express
+        </span>
 
-                <div className="flex gap-2 mt-4">
-                  <div className="flex gap-3 mt-5">
-   <a
-  href="https://github.com/bommakoushik-code/full-stack-portfolio"
-  target="_blank"
-  className="bg-purple-600 px-4 py-2 rounded-lg"
->
-  GitHub
-</a>
+        <span className="bg-[#201830] px-3 py-1 rounded-lg text-sm text-purple-200">
+          MongoDB
+        </span>
+      </div>
 
-  <a
-  href="https://full-stack-portfolio-mu-ten.vercel.app"
-  target="_blank"
-  className="border border-purple-500 px-4 py-2 rounded-lg"
->
-  Live Demo
-</a>
+      <div className="flex flex-wrap gap-3 mt-auto pt-6">
+        <a
+          href="https://github.com/bommakoushik-code/full-stack-portfolio"
+          target="_blank"
+          className="inline-flex items-center justify-center min-w-24 bg-purple-600 px-4 py-2 rounded-lg hover:bg-purple-700 transition text-sm font-medium"
+        >
+          GitHub
+        </a>
+
+        <a
+          href="https://full-stack-portfolio-mu-ten.vercel.app"
+          target="_blank"
+          className="inline-flex items-center justify-center min-w-28 border border-purple-500 px-4 py-2 rounded-lg hover:bg-purple-900 transition text-sm font-medium"
+        >
+          Live Demo
+        </a>
+      </div>
+    </div>
+
+    <div className="bg-[#151022] p-6 rounded-2xl border border-purple-900/30 hover:border-purple-500 hover:-translate-y-2 transition duration-300 flex flex-col h-full">
+      <h3 className="text-xl font-semibold">
+        Student Management System
+      </h3>
+
+      <p className="text-gray-400 mt-3 leading-relaxed">
+        Full-stack application for managing student records, attendance, and academic information
+        using a database-driven backend with clean API structure.
+      </p>
+
+      <div className="flex flex-wrap gap-2 mt-4">
+        <span className="bg-[#201830] px-3 py-1 rounded-lg text-sm text-purple-200">
+          Node.js
+        </span>
+
+        <span className="bg-[#201830] px-3 py-1 rounded-lg text-sm text-purple-200">
+          Express
+        </span>
+
+        <span className="bg-[#201830] px-3 py-1 rounded-lg text-sm text-purple-200">
+          MongoDB
+        </span>
+      </div>
+
+      <div className="flex flex-wrap gap-3 mt-auto pt-6">
+        <a
+          href="https://github.com/bommakoushik-code/full-stack-portfolio"
+          target="_blank"
+          className="inline-flex items-center justify-center min-w-24 bg-purple-600 px-4 py-2 rounded-lg hover:bg-purple-700 transition text-sm font-medium"
+        >
+          GitHub
+        </a>
+
+        <a
+          href="https://full-stack-portfolio-mu-ten.vercel.app"
+          target="_blank"
+          className="inline-flex items-center justify-center min-w-28 border border-purple-500 px-4 py-2 rounded-lg hover:bg-purple-900 transition text-sm font-medium"
+        >
+          Live Demo
+        </a>
+      </div>
+    </div>
+  </div>
 </div>
-                  <span className="bg-[#201830] px-3 py-1 rounded-lg text-sm">
-                    React
-                  </span>
-
-                  <span className="bg-[#201830] px-3 py-1 rounded-lg text-sm">
-                    Tailwind
-                  </span>
-                </div>
-
-              </div>
-
-              <div className="bg-[#151022] p-6 rounded-2xl border border-purple-900/30 hover:border-purple-500 hover:-translate-y-2 transition duration-300">
-
-                <h3 className="text-xl font-semibold">
-                  Student Management System
-                </h3>
-
-                <p className="text-gray-400 mt-3">
-  Full-stack application for managing student records, attendance and academic information using a database-driven backend.
-</p>
-
-                <div className="flex gap-2 mt-4">
-                  <div className="flex gap-3 mt-5">
-  <a
-  href="https://github.com/bommakoushik-code/full-stack-portfolio"
-  target="_blank"
-  className="bg-purple-600 px-4 py-2 rounded-lg"
->
-  GitHub
-</a>
-
-  <a
-  href="https://full-stack-portfolio-mu-ten.vercel.app"
-  target="_blank"
-  className="border border-purple-500 px-4 py-2 rounded-lg"
->
-  Live Demo
-</a>
-</div>
-                  <span className="bg-[#201830] px-3 py-1 rounded-lg text-sm">
-                    Node.js
-                  </span>
-
-                  <span className="bg-[#201830] px-3 py-1 rounded-lg text-sm">
-                    MongoDB
-                  </span>
-                </div>
-
-              </div>
-
-            </div>
-
-          </div>
           {/* Skills Section */}
 <div className="mt-12">
 
